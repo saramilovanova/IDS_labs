@@ -2,6 +2,8 @@ import pandas as pd
 
 print("Hello")
 
-#print(pd.DataFrame('a': [1,2], 'b': [3, 4]))
+df = pd.DataFrame({'a': [1, 2], 'b': [3, 4]})
+print(df)
 
-#pd.read_excel('Book_1.xls')
+df.to_excel('Book_1.xlsx', index=False)
+
