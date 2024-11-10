@@ -2,7 +2,7 @@
 
 - environment
 
-`conda create -m idsev python=3.10`
+`conda create -n idsenv python=3.10`
 
 `conda activate idsev`
 

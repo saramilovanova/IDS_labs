@@ -44,3 +44,9 @@ https://www.w3schools.com/cssref/css_selectors.php for the selector elements
 - Disable caching; go incognito; disable popups; 
 
 - Mobile mode also possible
+
+note to self: 
+in new envs, install selenium with pip install selenium==4.14.0
+
+conda activate <env_name>
+python -m ipykernel install --user --name <env_name> --display-name "Python [conda env:<env_name>]"
