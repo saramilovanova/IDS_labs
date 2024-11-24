@@ -45,8 +45,18 @@ https://www.w3schools.com/cssref/css_selectors.php for the selector elements
 
 - Mobile mode also possible
 
-note to self: 
+#### note to self:
+
 in new envs, install selenium with pip install selenium==4.14.0
 
 conda activate <env_name>
 python -m ipykernel install --user --name <env_name> --display-name "Python [conda env:<env_name>]"
+
+Hands-on exam environment:
+conda create -n exam1 python=3.10
+conda activate exam1
+conda install ipykernel pandas matplotlib
+conda install jupyter jupyterlab notebook
+python -m ipykernel install --user --name exam1 --display-name "Python [conda env:exam1]"
+conda install seaborn
+pip install selenium==4.14.0

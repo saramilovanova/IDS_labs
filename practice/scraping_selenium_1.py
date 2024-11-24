@@ -11,7 +11,7 @@ driver.get(MAIN_URL)
 
 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
-show_comments_btn = driver.find_element(By.CLASS_NAME, 'link-show-comments')
+show_comments_btn = driver.find_element(By.CLASS_NAME, 'link-show-comments') # class of anchor tag
 show_comments_btn.click()
 time.sleep(3)
 
